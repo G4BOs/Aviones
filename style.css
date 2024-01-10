@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    background-image: url(img/fondo.gif);
+}
+
+#fondo{
+    background-image: url(img/fondo.gif);
+    height: 650px;
+    width: 1300px;
+    background-size: 400px;
+    background-repeat: repeat;
+}
+
+
+
+.player{
+    width: 70px;
+    height: 100px;
+    background-image: url(img/player.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.enemy{
+    width: 90px;
+    height: 90px;
+    background-image: url(img/enemy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 400px;
+    top: 20px;
+}
+
+.misil{
+    width: 2px;
+    height: 10px;
+    background-color: orangered;
+    position: absolute;
+    border-radius: 50% 50% 0 0;
+}
